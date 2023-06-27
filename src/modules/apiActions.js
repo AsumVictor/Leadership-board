@@ -25,7 +25,6 @@ export const addNewScore = async (e) => {
       userInput.value = null;
       scoreInput.value = null;
       submitBtn.value = 'Add score';
-      refresh();
     } catch (error) {
       setFromIndicator('error', error);
     }
