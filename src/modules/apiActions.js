@@ -1,8 +1,9 @@
 import { getScores, addScore } from "./api";
 import displayElement from "./displayElements";
-import { userInput, scoreInput, submitBtn } from "./Variables";
+import { userInput, scoreInput, submitBtn, tableBody } from "./Variables";
 import { setFromIndicator } from "./indicators";
 export const refresh = async () => {
+  tableBody.innerHTML = 'LOADING SCORES...'
   const scores = await getScores();
   displayElement(scores);
 };
@@ -21,6 +22,7 @@ export const addNewScore = async (e) => {
       userInput.value = null;
       scoreInput.value = null;
       submitBtn.value = 'Add score'
+      refresh()
     } catch (error) {}
   }
 };
