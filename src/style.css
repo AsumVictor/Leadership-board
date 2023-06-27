@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 tr:nth-child(even) {
-  background-color: rgb(211, 211, 211);
+  background-color: rgba(37, 99, 237, 0.389);
 }
 
 .form-indicator {
