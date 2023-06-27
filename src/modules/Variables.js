@@ -1,6 +1,6 @@
-const selectElFromDOM = (el) =>{
-   let element =  document.querySelector(el)
-   return element
-}
+export const selectElFromDOM = (el) => {
+  const element = document.querySelector(el);
+  return element;
+};
 
-export const tableBody = selectElFromDOM('tbody')
+export const tableBody = selectElFromDOM('tbody');
