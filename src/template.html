@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Leadership Board</title>
-</head>
-<body>
-    <div class="body"></div>
-</body>
+  </head>
+  <body>
+    <header>
+      <h1 class="text-5xl mt-2 mx-2">Leaderboard</h1>
+      <section
+        class="grid grid-cols-1 md:grid-cols-2 gap-10 px-3 md:px-10 mt-10"
+      >
+        <div class="w-full">
+          <div class="flex fex-row justify-between px-2 md:px-10">
+            <h2 class="text-2xl font-bold">Recent Score</h2>
+            <button type="button" class="py-1 px-2 border bg-slate-400 font-bold">Refresh</button>
+          </div>
+          <table class="table-auto border-2 border-black w-full mt-10">
+            <thead class="border-4 border-black">
+              <tr>
+                <th>Name</th>
+                <th>Score</th>
+              </tr>
+            </thead>
+            <tbody>
+             
+            </tbody>
+          </table>
+        </div>
+        <form class="w-full flex flex-col">
+          <h2 class="text-2xl font-bold">Add your score</h2>
+          <input type="text" placeholder="Your name" required  class="mt-10 border-2 py-1 px-3 border-black"/>
+          <input type="number" placeholder="Your name" required class="mt-2 border-2 py-1 px-3 border-black" />
+          <input type="submit" placeholder="Your name" required class="mt-2 border-black border px-3 py-1 font-bold self-end"/>
+        </form>
+      </section>
+    </header>
+  </body>
 </html>
