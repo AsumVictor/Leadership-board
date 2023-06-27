@@ -7,7 +7,7 @@ const displayElement = (data) => {
     tr.classList.add('border');
     tr.id = index;
     tr.innerHTML = `
-        <td class="text-center">${data.name}</td>
+        <td class="text-center">${data.user}</td>
         <td class="text-center">${data.score}</td>
         `;
 

@@ -1,13 +1,8 @@
-import { API_URL } from "./Variables";
+import getScores from "./api";
+import displayElement from "./displayElements";
 const refresh = async () => {
-  try {
-    const res = await fetch(API_URL);
-    const data = await res.json()
-    const scores = data.result
-    console.log(scores);
-  } catch (error) {
-    console.log(error);
-  }
+  const scores = await getScores()
+  displayElement(scores)
 };
 
 export default refresh;

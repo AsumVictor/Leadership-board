@@ -4,5 +4,6 @@ export const selectElFromDOM = (el) => {
 };
 
 export const tableBody = selectElFromDOM("tbody");
+export const refreshBtn = selectElFromDOM(".refresh");
 export const API_URL =
   "https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/DduMfw1Cbs9nVFmDS4n8/scores";
