@@ -55,6 +55,9 @@ The Leadership board project is a microverse challenge to help learn API. I buil
 ### Key Features <a name="key-features"></a>
 
 - **Display content in the table dynamically**
+- **Feature to refresh and get updated score**
+- **Form to input score and name**
+- **Feature to post new score to API**
 
 <!-- ## Live demo <a name="key-features"></a>
 
@@ -125,7 +128,7 @@ Github pages depolyment
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- **Fetch data from external API and update the DOM**
+- **Add new style**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
