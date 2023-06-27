@@ -119,7 +119,7 @@ Github pages depolyment
 
 - GitHub: [@AsumVictor](https://github.com/AsumVictor)
 - Twitter: [@iamasum369](https://twitter.com/iamasum369)
-- LinkedIn: [AsumVictorDev](https://linkedin.com/in/asumvictordev)
+- LinkedIn [AsumVictorDev](https://www.linkedin.com/in/victorasumdev/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
