@@ -2,6 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-tr:nth-child(even){
-    background-color: rgb(211, 211, 211);
+tr:nth-child(even) {
+  background-color: rgb(211, 211, 211);
+}
+
+.form-indicator {
+  display: none;
+  padding: 5px 5px 5px 5px;
+  margin-top: 15px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.form-indicator.success {
+  display: block;
+  background-color: rgb(0, 102, 9);
+  color: white;
+  border: 3px solid rgb(7, 75, 7);
+}
+
+.form-indicator.error {
+  display: block;
+  background-color: rgba(153, 5, 5, 0.781);
+  color: rgb(252, 237, 237);
+  border: 3px solid rgb(75, 7, 7);
 }
